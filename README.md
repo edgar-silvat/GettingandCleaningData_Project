@@ -18,24 +18,15 @@ Requirements
 Steps to run the run_analysis function:
 =======================================
 1. Download the .txt files below (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and place it in your working directory:
-- 'data/features_info.txt': Shows information about the variables used on the feature vector.
-
-- 'data/features.txt': List of all features.
-
-- 'data/activity_labels.txt': Links the class labels with their activity name.
-
-- 'data/X_train.txt': Training set.
-
-- 'data/y_train.txt': Training labels.
-
-- 'data/X_test.txt': Test set.
-
-- 'data/y_test.txt': Test labels.
-
-- 'data/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-- 'data/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'X_train.txt': Training set.
+- 'y_train.txt': Training labels.
+- 'X_test.txt': Test set.
+- 'y_test.txt': Test labels.
+- 'subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- 'subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 2. Open R Studio and ser your working directory in the same folder where you put the "data" folder with all the files.
 3. Fork the run_analysis.R to your computer or open a new R Script, copy the run_analysis.R code, paste it and save it in your working directory as run_analysis.R.
 4. Press Source button or type source in the console ('*Your working directory*/run_analysis.R')

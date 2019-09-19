@@ -1,4 +1,4 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Dataset Processing Information <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+=Dataset Processing Information=
 
 Datasets above are processed to perform a series of operations in R with the function run_analysis():
 - Load info from .txt files dataset
@@ -38,8 +38,7 @@ Steps to run analysis:
 5. Type in the console: run_analysis() 
 6. The tables (discribe in the Code Book) will appear in the Source RStudio window 
 
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Initial Dataset Information <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+=Initial Dataset Information=
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset

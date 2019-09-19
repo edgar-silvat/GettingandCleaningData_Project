@@ -17,7 +17,7 @@ Requirements
 
 Steps to run the run_analysis function:
 =======================================
-1. Download the .txt files below and place it in a folder name "data":
+1. Download the .txt files below (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and place it in a folder name "data":
 - 'data/features_info.txt': Shows information about the variables used on the feature vector.
 
 - 'data/features.txt': List of all features.

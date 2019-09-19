@@ -1,18 +1,18 @@
 =Dataset Processing Information=
 
-Datasets above are processed to perform a series of operations in R with the function run_analysis():
+Datasets below are processed to perform a series of operations in R with the function run_analysis(). In general what this function do is:
 - Load info from .txt files dataset
 - Merge the datasets into one in a tidy form
 - Get 2 tidy data tables: 
 	1. SmartphoneData: with selected variables that contains mean and standard deviation 
 	2. SummarySmartphoneData: with calculated averages for each selected varible (from SmartphoneData) for each subject and activity combination.
-- At the end of the function the tables are just display in the console.
+- At the end of the function the tables are just display in the console and the 2 tables are exported to a .csv file for each
 
 Requirements
 - Software: RStudio (to run the function "run_analysis.R" file)
 - Libraries installed on R: dplyr and reshape2
 
-Steps to run analysis:
+Steps to run the run_analysis function:
 1. Download the .txt files below and place it in a folder name "data":
 - 'data/features_info.txt': Shows information about the variables used on the feature vector.
 

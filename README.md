@@ -6,9 +6,9 @@ Datasets below are processed to perform a series of operations in R with the fun
 - Load info from .txt files dataset
 - Merge the datasets into one in a tidy form
 - Get 2 tidy data tables: 
-	1. SmartphoneData: with selected variables that contains mean and standard deviation 
-	2. SummarySmartphoneData: with calculated averages for each selected varible (from SmartphoneData) for each subject and activity combination.
-- At the end of the function the tables are just display in the console and the 2 tables are exported to a .txt file for each
+	1. SmartphoneData: with selected variables that contains mean and standard deviation (it's just use as a base table)
+	2. SummarySmartphoneData: with calculated averages for each selected varible (from SmartphoneData) for each subject and activity combination. (this is the file that is out to the .txt file)
+- At the end of the function the tables are just display in the console and the 2 tables are exported to a .txt file each.
 
 Requirements
 ============

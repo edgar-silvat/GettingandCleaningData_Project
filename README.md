@@ -1,4 +1,6 @@
-=Dataset Processing Information=
+
+Dataset Processing Information
+==============================
 
 Datasets below are processed to perform a series of operations in R with the function run_analysis(). In general what this function do is:
 - Load info from .txt files dataset
@@ -9,10 +11,12 @@ Datasets below are processed to perform a series of operations in R with the fun
 - At the end of the function the tables are just display in the console and the 2 tables are exported to a .csv file for each
 
 Requirements
+============
 - Software: RStudio (to run the function "run_analysis.R" file)
 - Libraries installed on R: dplyr and reshape2
 
 Steps to run the run_analysis function:
+=======================================
 1. Download the .txt files below and place it in a folder name "data":
 - 'data/features_info.txt': Shows information about the variables used on the feature vector.
 
@@ -38,19 +42,18 @@ Steps to run the run_analysis function:
 5. Type in the console: run_analysis() 
 6. The tables (discribe in the Code Book) will appear in the Source RStudio window 
 
-=Initial Dataset Information=
+Initial Dataset Information
+============================
 
-==================================================================
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
-==================================================================
+Human Activity Recognition Using Smartphones Dataset Version 1.0
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==================================================================
+
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
